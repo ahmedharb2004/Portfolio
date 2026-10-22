@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO -->
+  <title>Ahmed Harb — AI & Machine Learning Portfolio</title>
+  <meta name="description"
+    content="Ahmed Harb is an Artificial Intelligence student at Assiut University seeking AI and Machine Learning internship opportunities. Explore his ML projects, skills, and experience." />
+  <meta name="keywords"
+    content="Ahmed Harb, AI, Machine Learning, Python, Scikit-learn, NTI, Assiut University, internship, portfolio" />
+  <meta name="author" content="Ahmed Harb" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ahmed Harb — AI & Machine Learning Portfolio" />
+  <meta property="og:description"
+    content="Aspiring AI Engineer. ML projects, Python, Scikit-learn, and a growing interest in Generative AI." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="profile.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="profile.jpg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- Skip to content (accessibility) -->
+  <a href="#home" class="skip-link">Skip to main content</a>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════════════════ -->
+  <header role="banner">
+    <nav class="navbar" role="navigation" aria-label="Primary navigation">
+      <div class="container nav-inner">
+
+        <!-- Logo -->
+        <a href="#home" class="nav-logo" aria-label="Ahmed Harb — Home">Ahmed Harb</a>
+
+        <!-- Desktop Links -->
+        <ul class="nav-links" role="list">
+          <li><a href="#home" class="nav-link" data-section="home" aria-label="Home">Home</a></li>
+          <li><a href="#about" class="nav-link" data-section="about" aria-label="About">About</a></li>
+          <li><a href="#skills" class="nav-link" data-section="skills" aria-label="Skills">Skills</a></li>
+          <li><a href="#projects" class="nav-link" data-section="projects" aria-label="Projects">Projects</a></li>
+          <li><a href="#experience" class="nav-link" data-section="experience" aria-label="Experience">Experience</a>
+          </li>
+          <li><a href="#services" class="nav-link" data-section="services" aria-label="Services">Services</a></li>
+          <li><a href="#contact" class="nav-link" data-section="contact" aria-label="Contact">Contact</a></li>
+        </ul>
+
+        <!-- Actions -->
+        <div class="nav-actions">
+          <!-- Theme Toggle -->
+          <button id="theme-toggle" class="theme-toggle" aria-label="Switch to light mode" aria-pressed="false"
+            title="Toggle color theme">
+            <!-- Sun (light mode icon) -->
+            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="12" cy="12" r="5" />
+              <line x1="12" y1="1" x2="12" y2="3" />
+              <line x1="12" y1="21" x2="12" y2="23" />
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+              <line x1="1" y1="12" x2="3" y2="12" />
+              <line x1="21" y1="12" x2="23" y2="12" />
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+            </svg>
+            <!-- Moon (dark mode icon) -->
+            <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
+          </button>
+
+          <!-- Hamburger -->
+          <button id="nav-hamburger" class="nav-hamburger" aria-label="Open navigation menu" aria-expanded="false"
+            aria-controls="mobile-menu">
+            <span class="hamburger-bar" aria-hidden="true"></span>
+            <span class="hamburger-bar" aria-hidden="true"></span>
+            <span class="hamburger-bar" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation" role="navigation">
+      <ul class="mobile-menu-links" role="list">
+        <li><a href="#home" class="nav-link" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+        <li><a href="#services" class="nav-link" data-section="services">Services</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ═══════════════════════════════════════════════════════
+         HERO SECTION
+    ═══════════════════════════════════════════════════════ -->
+    <section id="home" class="hero" aria-label="Introduction">
+
+      <!-- Background -->
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-grid"></div>
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+      </div>
+
+      <div class="container hero-inner">
+
+        <!-- Content -->
+        <div class="hero-content">
+
+          <div class="hero-eyebrow fade-in">
+            <span class="hero-eyebrow-dot" aria-hidden="true"></span>
+            Artificial Intelligence Student &nbsp;|&nbsp; AI / ML Intern Candidate
+          </div>
+
+          <h1 class="hero-name fade-in">Ahmed Harb</h1>
+
+          <p class="hero-title fade-in">Aspiring AI Engineer</p>
+
+          <p class="hero-description fade-in">
+            I build practical machine learning projects using Python, data analysis, and model evaluation
+            techniques. I'm passionate about turning data into meaningful insights and developing AI
+            solutions while expanding my knowledge of Generative AI.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="hero-actions fade-in">
+            <a href="#projects" class="btn btn-primary" id="hero-cta-projects">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V9m-10 0V3m0 0l6 6m0 0V3" />
+              </svg>
+              View Projects
+            </a>
+            <a href="#contact" class="btn btn-outline" id="hero-cta-contact">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              Contact Me
+            </a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="hero-social fade-in">
+            <a href="https://github.com/ahmedharb2004" target="_blank" rel="noopener noreferrer"
+              class="hero-social-link" id="hero-github-link"
+              aria-label="Visit Ahmed Harb's GitHub profile (opens in new tab)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"
+                aria-hidden="true">
+                <path
+                  d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.55v-1.93C5.92 21.14 5.2 18.97 5.2 18.97c-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.02 1.74 2.67 1.24 3.32.95.1-.74.4-1.24.73-1.53C7.14 16.97 4.55 16.03 4.55 11.7c0-1.28.46-2.33 1.2-3.15-.12-.3-.52-1.49.12-3.1 0 0 .98-.31 3.2 1.19a11.14 11.14 0 012.92-.39c.99 0 1.98.13 2.92.39 2.22-1.5 3.2-1.19 3.2-1.19.64 1.61.24 2.8.12 3.1.75.82 1.2 1.87 1.2 3.15 0 4.34-2.6 5.3-5.08 5.58.4.35.76 1.03.76 2.08v3.08c0 .3.21.66.8.55C20.21 21.42 23.5 17.1 23.5 12 23.5 5.65 18.35.5 12 .5z" />
+              </svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/ahmed-harb-735786322/" target="_blank" rel="noopener noreferrer"
+              class="hero-social-link" id="hero-linkedin-link"
+              aria-label="Visit Ahmed Harb's LinkedIn profile (opens in new tab)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"
+                aria-hidden="true">
+                <path
+                  d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.93v5.68H9.37V9h3.41v1.56h.05c.47-.89 1.63-1.83 3.35-1.83 3.58 0 4.24 2.36 4.24 5.43v6.29zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM3.56 20.45h3.55V9H3.56v11.45zM22.22 0H1.78C.8 0 0 .78 0 1.74v20.52C0 23.22.8 24 1.78 24h20.44C23.2 24 24 23.22 24 22.26V1.74C24 .78 23.2 0 22.22 0z" />
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+
+          <!-- Quick Skills -->
+          <div class="hero-skills-bar fade-in" aria-label="Core skills summary">
+            <span class="tag">🐍 Python</span>
+            <span class="tag">🤖 Machine Learning</span>
+            <span class="tag">📊 Scikit-learn</span>
+            <span class="tag">📈 Data Analysis</span>
+          </div>
+
+        </div>
+
+        <!-- Visual -->
+        <div class="hero-visual fade-in-right">
+          <div class="ai-visual" role="img" aria-label="Portrait of Ahmed Harb with interactive AI visual concepts">
+            <!-- Rotating rings -->
+            <div class="ai-visual-ring" aria-hidden="true"></div>
+            <div class="ai-visual-ring" aria-hidden="true"></div>
+            <div class="ai-visual-ring" aria-hidden="true"></div>
+
+            <!-- Core with Ahmed's photo -->
+            <div class="ai-visual-core">
+              <img src="profile.jpg" alt="Ahmed Harb - Aspiring AI Engineer" class="hero-avatar-img" />
+              <span class="hero-avatar-badge" aria-hidden="true">AI / ML</span>
+            </div>
+
+            <!-- Floating nodes -->
+            <div class="ai-node" title="Python" aria-hidden="true">🐍</div>
+            <div class="ai-node" title="Data" aria-hidden="true">📊</div>
+            <div class="ai-node" title="Neural Networks" aria-hidden="true">🧠</div>
+            <div class="ai-node" title="Models" aria-hidden="true">⚙️</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <!-- ═══════════════════════════════════════════════════════
+         ABOUT SECTION
+    ═══════════════════════════════════════════════════════ -->
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <div class="container">
+
+        <div class="section-header fade-in">
+          <span class="section-label">Who I Am</span>
+          <h2 class="section-title" id="about-heading">About Me</h2>
+        </div>
+
+        <div class="about-grid">
+
+          <!-- Left: Portrait + Info Cards -->
+          <div class="about-portrait-wrap fade-in-left">
+
+            <!-- Portrait Card -->
+            <div class="portrait-card" role="img" aria-label="Portrait of Ahmed Harb">
+              <img src="profile.jpg" alt="Portrait of Ahmed Harb" class="portrait-img" loading="lazy" />
+              <div class="portrait-overlay" aria-hidden="true"></div>
+              <div class="portrait-caption">
+                <p class="portrait-name">Ahmed Harb</p>
+                <p class="portrait-role">
+                  <span class="portrait-status-dot" aria-hidden="true"></span>
+                  AI Student · Assiut University
+                </p>
+              </div>
+            </div>
+
+            <!-- Info Cards -->
+            <div class="about-info-cards stagger-children">
+
+              <div class="info-card fade-in">
+                <div class="info-card-icon" aria-hidden="true">🎓</div>
+                <div class="info-card-content">
+                  <p class="info-card-label">University</p>
+                  <p class="info-card-value">Assiut University</p>
+                  <p class="info-card-sub">Faculty of Artificial Intelligence</p>
+                </div>
+              </div>
+
+              <div class="info-card fade-in">
+                <div class="info-card-icon" aria-hidden="true">📅</div>
+                <div class="info-card-content">
+                  <p class="info-card-label">Expected Graduation</p>
+                  <p class="info-card-value">2027</p>
+                  <p class="info-card-sub">B.Sc. in Artificial Intelligence</p>
+                </div>
+              </div>
+
+              <div class="info-card fade-in">
+                <div class="info-card-icon" aria-hidden="true">🏆</div>
+                <div class="info-card-content">
+                  <p class="info-card-label">NTI ML Training</p>
+                  <p class="info-card-value">Score: 93.5%</p>
+                  <p class="info-card-sub">120-hour program</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Right: About Text -->
+          <div class="about-content fade-in-right">
+
+            <div class="about-text">
+              <p>
+                I'm an Artificial Intelligence student at Assiut University, expected to graduate in 2027,
+                with hands-on experience developing machine learning projects and data-driven applications.
+              </p>
+
+              <p>
+                My work focuses on <strong>data preprocessing</strong>, <strong>exploratory data analysis</strong>,
+                <strong>classification models</strong>, <strong>model evaluation</strong>,
+                <strong>class-imbalance handling</strong>, and <strong>hyperparameter tuning</strong>.
+                Through practical projects, I've explored how machine learning techniques can help identify
+                patterns, evaluate predictions, and address real-world problems.
+              </p>
+
+              <div class="about-highlight">
+                <p>
+                  "I completed the 120-hour NTI Machine Learning Training Program with a final score of 93.5% —
+                  a structured program covering technical ML topics and freelancing-related training."
+                </p>
+              </div>
+
+              <p>
+                I'm also expanding my knowledge of <strong>Generative AI</strong>, including
+                Large Language Models (LLMs), Prompt Engineering, and Embeddings — areas I'm actively
+                studying and curious about, though I don't yet claim professional expertise in them.
+              </p>
+
+              <p>
+                I'm looking for an AI or Machine Learning internship where I can contribute to meaningful
+                projects, learn from experienced engineers, and continue developing the skills needed to
+                become a professional AI Engineer.
+              </p>
+            </div>
+
+            <div class="achievement-badge" aria-label="NTI Training achievement badge">
+              <span aria-hidden="true">🏅</span>
+              NTI Machine Learning Training &nbsp;·&nbsp; 93.5% Final Score &nbsp;·&nbsp; 120 Hours
+            </div>
+
+            <div class="about-cta">
+              <a href="https://github.com/ahmedharb2004" target="_blank" rel="noopener noreferrer"
+                class="btn btn-outline" id="about-github-btn"
+                aria-label="View Ahmed Harb's GitHub profile (opens in new tab)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"
+                  aria-hidden="true">
+                  <path
+                    d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.55v-1.93C5.92 21.14 5.2 18.97 5.2 18.97c-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.02 1.74 2.67 1.24 3.32.95.1-.74.4-1.24.73-1.53C7.14 16.97 4.55 16.03 4.55 11.7c0-1.28.46-2.33 1.2-3.15-.12-.3-.52-1.49.12-3.1 0 0 .98-.31 3.2 1.19a11.14 11.14 0 012.92-.39c.99 0 1.98.13 2.92.39 2.22-1.5 3.2-1.19 3.2-1.19.64 1.61.24 2.8.12 3.1.75.82 1.2 1.87 1.2 3.15 0 4.34-2.6 5.3-5.08 5.58.4.35.76 1.03.76 2.08v3.08c0 .3.21.66.8.55C20.21 21.42 23.5 17.1 23.5 12 23.5 5.65 18.35.5 12 .5z" />
+                </svg>
+                View GitHub Profile
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SKILLS SECTION
+    ═══════════════════════════════════════════════════════ -->
+    <section id="skills" class="section" aria-labelledby="skills-heading">
+      <div class="container">
+
+        <div class="section-header fade-in">
+          <span class="section-label">Capabilities</span>
+          <h2 class="section-title" id="skills-heading">Technical Skills</h2>
+          <p class="section-subtitle">
+            Technologies and tools I've worked with through academic projects and training.
+            The "Currently Exploring" category reflects active learning — not yet project-proven expertise.
+          </p>
+        </div>
+
+        <div class="skills-grid stagger-children">
+
+          <!-- Programming Languages -->
+          <article class="skill-card fade-in" aria-label="Programming Languages skills">
+            <div class="skill-card-header">
+              <div class="skill-card-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6" />
+                  <polyline points="8 6 2 12 8 18" />
+                </svg>
+              </div>
+              <h3 class="skill-card-title">Programming Languages</h3>
+            </div>
+            <div class="skill-tags" role="list" aria-label="Programming languages">
+              <span class="tag" role="listitem">Python</span>
+              <span class="tag" role="listitem">C++</span>
+              <span class="tag" role="listitem">Java</span>
+              <span class="tag" role="listitem">PHP</span>
+            </div>
+          </article>
+
+          <!-- Machine Learning -->
+          <article class="skill-card fade-in" aria-label="Machine Learning skills">
+            <div class="skill-card-header">
+              <div class="skill-card-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                </svg>
+              </div>
+              <h3 class="skill-card-title">Machine Learning</h3>
+            </div>
+            <div class="skill-tags" role="list" aria-label="Machine learning skills">
+              <span class="tag" role="listitem">Data Preprocessing</span>
+              <span class="tag" role="listitem">EDA</span>
+              <span class="tag" role="listitem">Classification</span>
+              <span class="tag" role="listitem">Model Evaluation</span>
+              <span class="tag" role="listitem">Hyperparameter Tuning</span>
+              <span class="tag" role="listitem">Class-Imbalance Handling</span>
+              <span class="tag" role="listitem">SMOTE</span>
+              <span class="tag" role="listitem">Cross-Validation</span>
+            </div>
+          </article>
+
+          <!-- Libraries & Frameworks -->
+          <article class="skill-card fade-in" aria-label="Libraries and frameworks">
+            <div class="skill-card-header">
+              <div class="skill-card-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                  <line x1="8" y1="21" x2="16" y2="21" />
+                  <line x1="12" y1="17" x2="12" y2="21" />
+                </svg>
+              </div>
+              <h3 class="skill-card-title">Libraries & Frameworks</h3>
+            </div>
+            <div class="skill-tags" role="list" aria-label="Libraries and frameworks">
+              <span class="tag" role="listitem">NumPy</span>
+              <span class="tag" role="listitem">Pandas</span>
+              <span class="tag" role="listitem">Matplotlib</span>
+              <span class="tag" role="listitem">Scikit-learn</span>
+              <span class="tag" role="listitem">TensorFlow</span>
+              <span class="tag" role="listitem">Keras</span>
+              <span class="tag" role="listitem">PyTorch</span>
+              <span class="tag" role="listitem">Streamlit</span>
+            </div>
+          </article>
+
+          <!-- Data & Databases -->
+          <article class="skill-card fade-in" aria-label="Data and database skills">
+            <div class="skill-card-header">
+              <div class="skill-card-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="9" ry="3" />
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                </svg>
+              </div>
+              <h3 class="skill-card-title">Data & Databases</h3>
+            </div>
+            <div class="skill-tags" role="list" aria-label="Data and database skills">
+              <span class="tag" role="listitem">SQL</span>
+              <span class="tag" role="listitem">MySQL</span>
+              <span class="tag" role="listitem">Data Visualization</span>
+              <span class="tag" role="listitem">Statistical Analysis</span>
+            </div>
+          </article>
+
+          <!-- Web Development -->
+          <article class="skill-card fade-in" aria-label="Web development skills">
+            <div class="skill-card-header">
+              <div class="skill-card-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <line x1="2" y1="12" x2="22" y2="12" />
+                  <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
+                </svg>
+              </div>
+              <h3 class="skill-card-title">Web Development</h3>
+            </div>
+            <div class="skill-tags" role="list" aria-label="Web development skills">
+              <span class="tag" role="listitem">HTML</span>
+              <span class="tag" role="listitem">CSS</span>
+              <span class="tag" role="listitem">JavaScript</span>
+              <span class="tag" role="listitem">Bootstrap</span>
+            </div>
+          </article>
+
+          <!-- Development Tools -->
+          <article class="skill-card fade-in" aria-label="Development tools">
+            <div class="skill-card-header">
+              <div class="skill-card-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
+                </svg>
+              </div>
+              <h3 class="skill-card-title">Development Tools</h3>
+            </div>
+            <div class="skill-tags" role="list" aria-label="Development tools">
+              <span class="tag" role="listitem">Git</span>
+              <span class="tag" role="listitem">GitHub</span>
+              <span class="tag" role="listitem">Jupyter Notebook</span>
+              <span class="tag" role="listitem">Google Colab</span>
+            </div>
+          </article>
+
+          <!-- Currently Exploring -->
+          <article class="skill-card exploring fade-in" aria-label="Currently exploring — topics under active study">
+            <div class="skill-card-header">
+              <div class="skill-card-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+              </div>
+              <h3 class="skill-card-title">Currently Exploring ✨</h3>
+            </div>
+            <div class="skill-tags" role="list" aria-label="Topics currently being explored">
+              <span class="tag" role="listitem">Generative AI</span>
+              <span class="tag" role="listitem">LLMs</span>
+              <span class="tag" role="listitem">Prompt Engineering</span>
+              <span class="tag" role="listitem">Embeddings</span>
+            </div>
+            <p class="exploring-note">
+              Active study area — not yet applied in completed projects. Shared to show direction and curiosity.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <!-- ═══════════════════════════════════════════════════════
+         PROJECTS SECTION
+    ═══════════════════════════════════════════════════════ -->
+    <section id="projects" class="section" aria-labelledby="projects-heading">
+      <div class="container">
+
+        <div class="section-header fade-in">
+          <span class="section-label">What I've Built</span>
+          <h2 class="section-title" id="projects-heading">Featured Projects</h2>
+          <p class="section-subtitle">
+            Practical machine learning projects developed through academic study and hands-on exploration.
+          </p>
+        </div>
+
+        <div class="projects-grid stagger-children">
+
+          <!-- Project 1: Health Check ML -->
+          <article class="project-card fade-in" aria-labelledby="proj1-title">
+            <div class="project-card-header">
+              <div class="project-icon" aria-hidden="true">🫀</div>
+              <div>
+                <p class="project-category">Machine Learning · Data Analysis</p>
+                <h3 class="project-title" id="proj1-title">Health Check ML</h3>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <p class="project-description">
+                An interactive machine learning application for analyzing heart disease datasets. The application
+                combines exploratory data analysis, preprocessing, class-imbalance handling, model comparison,
+                and hyperparameter tuning in a single workflow.
+              </p>
+              <div class="project-highlights" aria-label="Key highlights">
+                <div class="project-highlight-item">Explores and visualizes dataset characteristics</div>
+                <div class="project-highlight-item">Compares multiple classification models</div>
+                <div class="project-highlight-item">Applies SMOTE and class-weighted learning for imbalance</div>
+                <div class="project-highlight-item">Emphasizes Recall-oriented evaluation metrics</div>
+                <div class="project-highlight-item">Supports hyperparameter tuning and model comparison</div>
+              </div>
+              <div class="project-tech" aria-label="Technologies used">
+                <span class="tag">Python</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">Scikit-learn</span>
+                <span class="tag">Streamlit</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/ahmedharb2004/Health-Check-ML" target="_blank" rel="noopener noreferrer"
+                class="project-link" id="proj1-github-link"
+                aria-label="View Health Check ML on GitHub (opens in new tab)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"
+                  aria-hidden="true">
+                  <path
+                    d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.55v-1.93C5.92 21.14 5.2 18.97 5.2 18.97c-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.02 1.74 2.67 1.24 3.32.95.1-.74.4-1.24.73-1.53C7.14 16.97 4.55 16.03 4.55 11.7c0-1.28.46-2.33 1.2-3.15-.12-.3-.52-1.49.12-3.1 0 0 .98-.31 3.2 1.19a11.14 11.14 0 012.92-.39c.99 0 1.98.13 2.92.39 2.22-1.5 3.2-1.19 3.2-1.19.64 1.61.24 2.8.12 3.1.75.82 1.2 1.87 1.2 3.15 0 4.34-2.6 5.3-5.08 5.58.4.35.76 1.03.76 2.08v3.08c0 .3.21.66.8.55C20.21 21.42 23.5 17.1 23.5 12 23.5 5.65 18.35.5 12 .5z" />
+                </svg>
+                View on GitHub
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5-5 5M6 12h12" />
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Customer Churn Prediction -->
+          <article class="project-card fade-in" aria-labelledby="proj2-title">
+            <div class="project-card-header">
+              <div class="project-icon" aria-hidden="true">📉</div>
+              <div>
+                <p class="project-category">Predictive Analytics · Machine Learning</p>
+                <h3 class="project-title" id="proj2-title">Customer Churn Prediction</h3>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <p class="project-description">
+                A machine learning project that analyzes customer and subscription data to predict customer churn.
+                The workflow focuses on data exploration, preprocessing, model development, and evaluation to
+                identify patterns associated with customer attrition.
+              </p>
+              <div class="project-tech" aria-label="Technologies used">
+                <span class="tag">Python</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">Scikit-learn</span>
+                <span class="tag">XGBoost</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/ahmedharb2004/customer-churn-prediction" target="_blank"
+                rel="noopener noreferrer" class="project-link" id="proj2-github-link"
+                aria-label="View Customer Churn Prediction on GitHub (opens in new tab)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"
+                  aria-hidden="true">
+                  <path
+                    d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.55v-1.93C5.92 21.14 5.2 18.97 5.2 18.97c-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.02 1.74 2.67 1.24 3.32.95.1-.74.4-1.24.73-1.53C7.14 16.97 4.55 16.03 4.55 11.7c0-1.28.46-2.33 1.2-3.15-.12-.3-.52-1.49.12-3.1 0 0 .98-.31 3.2 1.19a11.14 11.14 0 012.92-.39c.99 0 1.98.13 2.92.39 2.22-1.5 3.2-1.19 3.2-1.19.64 1.61.24 2.8.12 3.1.75.82 1.2 1.87 1.2 3.15 0 4.34-2.6 5.3-5.08 5.58.4.35.76 1.03.76 2.08v3.08c0 .3.21.66.8.55C20.21 21.42 23.5 17.1 23.5 12 23.5 5.65 18.35.5 12 .5z" />
+                </svg>
+                View on GitHub
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5-5 5M6 12h12" />
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: Handwritten Digit Recognition -->
+          <article class="project-card fade-in" aria-labelledby="proj3-title">
+            <div class="project-card-header">
+              <div class="project-icon" aria-hidden="true">✍️</div>
+              <div>
+                <p class="project-category">Neural Networks · Classification</p>
+                <h3 class="project-title" id="proj3-title">Handwritten Digit Recognition</h3>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <p class="project-description">
+                A handwritten digit classification project exploring multilayer perceptron models, activation
+                functions, and classification performance. The project evaluates predictions using classification
+                metrics and confusion matrices.
+              </p>
+              <div class="project-tech" aria-label="Technologies used">
+                <span class="tag">Python</span>
+                <span class="tag">Scikit-learn</span>
+                <span class="tag">MLPClassifier</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/ahmedharb2004/handwritten-digit-recognition" target="_blank"
+                rel="noopener noreferrer" class="project-link" id="proj3-github-link"
+                aria-label="View Handwritten Digit Recognition on GitHub (opens in new tab)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"
+                  aria-hidden="true">
+                  <path
+                    d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.55v-1.93C5.92 21.14 5.2 18.97 5.2 18.97c-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.02 1.74 2.67 1.24 3.32.95.1-.74.4-1.24.73-1.53C7.14 16.97 4.55 16.03 4.55 11.7c0-1.28.46-2.33 1.2-3.15-.12-.3-.52-1.49.12-3.1 0 0 .98-.31 3.2 1.19a11.14 11.14 0 012.92-.39c.99 0 1.98.13 2.92.39 2.22-1.5 3.2-1.19 3.2-1.19.64 1.61.24 2.8.12 3.1.75.82 1.2 1.87 1.2 3.15 0 4.34-2.6 5.3-5.08 5.58.4.35.76 1.03.76 2.08v3.08c0 .3.21.66.8.55C20.21 21.42 23.5 17.1 23.5 12 23.5 5.65 18.35.5 12 .5z" />
+                </svg>
+                View on GitHub
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5-5 5M6 12h12" />
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: ML Experiments -->
+          <article class="project-card fade-in" aria-labelledby="proj4-title">
+            <div class="project-card-header">
+              <div class="project-icon" aria-hidden="true">🧪</div>
+              <div>
+                <p class="project-category">Machine Learning · Model Evaluation</p>
+                <h3 class="project-title" id="proj4-title">Machine Learning Experiments</h3>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <p class="project-description">
+                An experimental collection of machine learning exercises exploring classification workflows,
+                model evaluation, data preprocessing, and performance comparison using practical datasets.
+              </p>
+              <div class="project-tech" aria-label="Technologies used">
+                <span class="tag">Python</span>
+                <span class="tag">Scikit-learn</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">Matplotlib</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/ahmedharb2004" target="_blank" rel="noopener noreferrer" class="project-link"
+                id="proj4-github-link" aria-label="View more ML projects on Ahmed Harb's GitHub (opens in new tab)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"
+                  aria-hidden="true">
+                  <path
+                    d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.55v-1.93C5.92 21.14 5.2 18.97 5.2 18.97c-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.02 1.74 2.67 1.24 3.32.95.1-.74.4-1.24.73-1.53C7.14 16.97 4.55 16.03 4.55 11.7c0-1.28.46-2.33 1.2-3.15-.12-.3-.52-1.49.12-3.1 0 0 .98-.31 3.2 1.19a11.14 11.14 0 012.92-.39c.99 0 1.98.13 2.92.39 2.22-1.5 3.2-1.19 3.2-1.19.64 1.61.24 2.8.12 3.1.75.82 1.2 1.87 1.2 3.15 0 4.34-2.6 5.3-5.08 5.58.4.35.76 1.03.76 2.08v3.08c0 .3.21.66.8.55C20.21 21.42 23.5 17.1 23.5 12 23.5 5.65 18.35.5 12 .5z" />
+                </svg>
+                View GitHub Profile
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5-5 5M6 12h12" />
+                </svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <!-- ═══════════════════════════════════════════════════════
+         EXPERIENCE & TRAINING SECTION
+    ═══════════════════════════════════════════════════════ -->
+    <section id="experience" class="section" aria-labelledby="experience-heading">
+      <div class="container">
+
+        <div class="section-header fade-in">
+          <span class="section-label">Background</span>
+          <h2 class="section-title" id="experience-heading">Experience &amp; Training</h2>
+          <p class="section-subtitle">
+            Verified training programs and practical project experience.
+            No fabricated employment history — only what's real.
+          </p>
+        </div>
+
+        <div class="timeline">
+
+          <!-- Entry 1: NTI -->
+          <div class="timeline-item fade-in-left">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-type type-training">Training</span>
+                <span class="timeline-org">National Telecommunication Institute (NTI)</span>
+              </div>
+              <h3 class="timeline-title">NTI Machine Learning Training Program</h3>
+              <p class="timeline-meta">Machine Learning Training · 120 Hours</p>
+              <p class="timeline-desc">
+                Completed a structured Machine Learning training program covering technical ML topics
+                and freelancing-related training. The program provided a solid grounding in core
+                machine learning concepts and practical workflows.
+              </p>
+              <div class="timeline-achievement" aria-label="Achievement: Final score 93.5%">
+                <span aria-hidden="true">🏅</span> Final Score: 93.5%
+              </div>
+            </div>
+          </div>
+
+          <!-- Entry 2: Health Check ML -->
+          <div class="timeline-item project fade-in-left">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-type type-project">Project Experience</span>
+                <span class="timeline-org">Academic / Practical ML Project</span>
+              </div>
+              <h3 class="timeline-title">Health Check ML</h3>
+              <p class="timeline-desc">
+                Worked on a machine learning workflow involving data preprocessing, class-imbalance handling
+                (SMOTE), model comparison, and hyperparameter tuning — with a focus on Recall-oriented
+                evaluation for a heart disease dataset.
+              </p>
+            </div>
+          </div>
+
+          <!-- Entry 3: Customer Churn -->
+          <div class="timeline-item project fade-in-left">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-type type-project">Project Experience</span>
+                <span class="timeline-org">Machine Learning Project</span>
+              </div>
+              <h3 class="timeline-title">Customer Churn Prediction</h3>
+              <p class="timeline-desc">
+                Explored predictive modeling using customer data, preprocessing workflows, and classification
+                techniques to identify patterns associated with customer attrition.
+              </p>
+            </div>
+          </div>
+
+          <!-- Entry 4: Digit Recognition -->
+          <div class="timeline-item project fade-in-left">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-type type-project">Project Experience</span>
+                <span class="timeline-org">Neural Network Project</span>
+              </div>
+              <h3 class="timeline-title">Handwritten Digit Recognition</h3>
+              <p class="timeline-desc">
+                Experimented with multilayer perceptron (MLP) classification, exploring activation functions,
+                and evaluating performance using classification metrics and confusion matrices.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SERVICES SECTION
+    ═══════════════════════════════════════════════════════ -->
+    <section id="services" class="section" aria-labelledby="services-heading">
+      <div class="container">
+
+        <div class="section-header fade-in">
+          <span class="section-label">How I Can Help</span>
+          <h2 class="section-title" id="services-heading">What I Can Help With</h2>
+          <p class="section-subtitle">
+            Practical services aligned with my demonstrated skills — not claims of senior-level expertise.
+          </p>
+        </div>
+
+        <div class="services-grid stagger-children">
+
+          <article class="service-card fade-in" aria-labelledby="svc1-title">
+            <div class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" stroke-width="1.8">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+            </div>
+            <h3 class="service-title" id="svc1-title">Data Analysis &amp; Cleaning</h3>
+            <p class="service-desc">
+              Explore datasets, identify data-quality issues, handle missing and duplicate values,
+              and prepare data for further analysis and modelling.
+            </p>
+          </article>
+
+          <article class="service-card fade-in" aria-labelledby="svc2-title">
+            <div class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" stroke-width="1.8">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <h3 class="service-title" id="svc2-title">ML Model Development</h3>
+            <p class="service-desc">
+              Build and evaluate classification workflows using Python and Scikit-learn for suitable
+              datasets and clearly defined objectives.
+            </p>
+          </article>
+
+          <article class="service-card fade-in" aria-labelledby="svc3-title">
+            <div class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" stroke-width="1.8">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+              </svg>
+            </div>
+            <h3 class="service-title" id="svc3-title">EDA &amp; Visualization</h3>
+            <p class="service-desc">
+              Discover patterns and communicate insights through statistical analysis and clear,
+              meaningful visualizations of data.
+            </p>
+          </article>
+
+          <article class="service-card fade-in" aria-labelledby="svc4-title">
+            <div class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" stroke-width="1.8">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                <line x1="9" y1="3" x2="9" y2="21" />
+              </svg>
+            </div>
+            <h3 class="service-title" id="svc4-title">Interactive Data Apps</h3>
+            <p class="service-desc">
+              Develop interactive data-analysis applications and machine learning demonstrations
+              using Streamlit for practical use and sharing.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <!-- ═══════════════════════════════════════════════════════
+         CAREER OBJECTIVE SECTION
+    ═══════════════════════════════════════════════════════ -->
+    <section class="section career-section" aria-labelledby="career-heading">
+      <div class="container">
+        <div class="career-inner fade-in">
+          <span class="section-label">Direction &amp; Goals</span>
+          <h2 class="section-title" id="career-heading">Career Objective</h2>
+          <p class="career-text">
+            My goal is to become a professional AI Engineer by applying machine learning knowledge
+            to practical problems, contributing to meaningful projects, and learning from experienced
+            engineering teams. I'm seeking an AI or Machine Learning internship where I can strengthen
+            my technical foundation, gain industry experience, and gradually expand into Generative AI
+            and LLM-based applications.
+          </p>
+          <a href="#contact" class="btn btn-primary" id="career-cta-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            Get In Touch
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <!-- ═══════════════════════════════════════════════════════
+         CONTACT SECTION
+    ═══════════════════════════════════════════════════════ -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="section-header fade-in">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title" id="contact-heading">Let's Connect</h2>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Left: Contact Info -->
+          <div class="fade-in-left">
+            <p class="contact-intro">
+              I'm open to AI and Machine Learning internship opportunities, collaborative projects,
+              and conversations with people building useful technology.
+            </p>
+
+            <div class="contact-channels" aria-label="Contact channels">
+
+              <!-- GitHub -->
+              <a href="https://github.com/ahmedharb2004" target="_blank" rel="noopener noreferrer"
+                class="contact-channel" id="contact-github-link" aria-label="GitHub: ahmedharb2004 (opens in new tab)">
+                <div class="contact-channel-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24"
+                    aria-hidden="true">
+                    <path
+                      d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.55v-1.93C5.92 21.14 5.2 18.97 5.2 18.97c-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.02 1.74 2.67 1.24 3.32.95.1-.74.4-1.24.73-1.53C7.14 16.97 4.55 16.03 4.55 11.7c0-1.28.46-2.33 1.2-3.15-.12-.3-.52-1.49.12-3.1 0 0 .98-.31 3.2 1.19a11.14 11.14 0 012.92-.39c.99 0 1.98.13 2.92.39 2.22-1.5 3.2-1.19 3.2-1.19.64 1.61.24 2.8.12 3.1.75.82 1.2 1.87 1.2 3.15 0 4.34-2.6 5.3-5.08 5.58.4.35.76 1.03.76 2.08v3.08c0 .3.21.66.8.55C20.21 21.42 23.5 17.1 23.5 12 23.5 5.65 18.35.5 12 .5z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="contact-channel-label">GitHub</p>
+                  <p class="contact-channel-value">github.com/ahmedharb2004</p>
+                </div>
+              </a>
+
+              <!-- LinkedIn -->
+              <a href="https://www.linkedin.com/in/ahmed-harb-735786322/" target="_blank" rel="noopener noreferrer"
+                class="contact-channel" id="contact-linkedin-link"
+                aria-label="LinkedIn: ahmed-harb-735786322 (opens in new tab)">
+                <div class="contact-channel-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24"
+                    aria-hidden="true">
+                    <path
+                      d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.93v5.68H9.37V9h3.41v1.56h.05c.47-.89 1.63-1.83 3.35-1.83 3.58 0 4.24 2.36 4.24 5.43v6.29zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM3.56 20.45h3.55V9H3.56v11.45zM22.22 0H1.78C.8 0 0 .78 0 1.74v20.52C0 23.22.8 24 1.78 24h20.44C23.2 24 24 23.22 24 22.26V1.74C24 .78 23.2 0 22.22 0z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="contact-channel-label">LinkedIn</p>
+                  <p class="contact-channel-value">ahmed-harb-735786322</p>
+                </div>
+              </a>
+
+              <!-- YouTube (placeholder — no verified URL) -->
+              <div class="contact-channel inactive" aria-label="YouTube: not yet available">
+                <div class="contact-channel-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24"
+                    aria-hidden="true">
+                    <path
+                      d="M23.5 6.19a3 3 0 00-2.11-2.12C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.39.57A3 3 0 00.5 6.19 31.36 31.36 0 000 12a31.36 31.36 0 00.5 5.81 3 3 0 002.11 2.12C4.5 20.5 12 20.5 12 20.5s7.5 0 9.39-.57a3 3 0 002.11-2.12A31.36 31.36 0 0024 12a31.36 31.36 0 00-.5-5.81zM9.75 15.02V8.98L15.5 12l-5.75 3.02z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="contact-channel-label">YouTube</p>
+                  <p class="contact-channel-value">Not yet available</p>
+                </div>
+              </div>
+
+              <!-- Facebook (placeholder — no verified URL) -->
+              <div class="contact-channel inactive" aria-label="Facebook: not yet available">
+                <div class="contact-channel-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24"
+                    aria-hidden="true">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="contact-channel-label">Facebook</p>
+                  <p class="contact-channel-value">Not yet available</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right: Contact Form -->
+          <div class="fade-in-right">
+            <div class="contact-form-wrap">
+              <h3 class="form-title">Send a Message</h3>
+              <p class="form-notice">
+                ⚠️ This is a front-end demonstration only. Messages are not delivered without a
+                backend service. To enable real email delivery, integrate a service such as
+                <strong>Formspree</strong> or <strong>EmailJS</strong>.
+              </p>
+
+              <form id="contact-form" class="contact-form" novalidate aria-label="Contact form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label" for="f-name">Full Name <span aria-hidden="true">*</span></label>
+                    <input type="text" id="f-name" name="name" class="form-input" placeholder="Your full name" required
+                      autocomplete="name" aria-required="true" aria-describedby="f-name-err" />
+                    <span id="f-name-err" class="form-error-msg" role="alert" aria-live="polite"></span>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="f-email">Email Address <span aria-hidden="true">*</span></label>
+                    <input type="email" id="f-email" name="email" class="form-input" placeholder="your@email.com"
+                      required autocomplete="email" aria-required="true" aria-describedby="f-email-err" />
+                    <span id="f-email-err" class="form-error-msg" role="alert" aria-live="polite"></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="f-subject">Subject <span aria-hidden="true">*</span></label>
+                  <input type="text" id="f-subject" name="subject" class="form-input"
+                    placeholder="e.g. ML Internship Opportunity" required aria-required="true"
+                    aria-describedby="f-subject-err" />
+                  <span id="f-subject-err" class="form-error-msg" role="alert" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="f-message">Message <span aria-hidden="true">*</span></label>
+                  <textarea id="f-message" name="message" class="form-textarea"
+                    placeholder="Your message (minimum 15 characters)…" required aria-required="true"
+                    aria-describedby="f-message-err"></textarea>
+                  <span id="f-message-err" class="form-error-msg" role="alert" aria-live="polite"></span>
+                </div>
+
+                <div id="form-feedback" class="form-feedback" role="status" aria-live="polite"></div>
+
+                <button type="submit" class="form-submit" id="form-submit-btn">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+
+      <div>
+        <p class="footer-logo">Ahmed Harb</p>
+        <p class="footer-tagline">Artificial Intelligence Student · Aspiring AI Engineer</p>
+      </div>
+
+      <nav class="footer-social" aria-label="Social media links">
+        <a href="https://github.com/ahmedharb2004" target="_blank" rel="noopener noreferrer" class="footer-social-link"
+          id="footer-github-link" aria-label="GitHub profile (opens in new tab)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"
+            aria-hidden="true">
+            <path
+              d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.55v-1.93C5.92 21.14 5.2 18.97 5.2 18.97c-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.02 1.74 2.67 1.24 3.32.95.1-.74.4-1.24.73-1.53C7.14 16.97 4.55 16.03 4.55 11.7c0-1.28.46-2.33 1.2-3.15-.12-.3-.52-1.49.12-3.1 0 0 .98-.31 3.2 1.19a11.14 11.14 0 012.92-.39c.99 0 1.98.13 2.92.39 2.22-1.5 3.2-1.19 3.2-1.19.64 1.61.24 2.8.12 3.1.75.82 1.2 1.87 1.2 3.15 0 4.34-2.6 5.3-5.08 5.58.4.35.76 1.03.76 2.08v3.08c0 .3.21.66.8.55C20.21 21.42 23.5 17.1 23.5 12 23.5 5.65 18.35.5 12 .5z" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/ahmed-harb-735786322/" target="_blank" rel="noopener noreferrer"
+          class="footer-social-link" id="footer-linkedin-link" aria-label="LinkedIn profile (opens in new tab)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"
+            aria-hidden="true">
+            <path
+              d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.93v5.68H9.37V9h3.41v1.56h.05c.47-.89 1.63-1.83 3.35-1.83 3.58 0 4.24 2.36 4.24 5.43v6.29zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM3.56 20.45h3.55V9H3.56v11.45zM22.22 0H1.78C.8 0 0 .78 0 1.74v20.52C0 23.22.8 24 1.78 24h20.44C23.2 24 24 23.22 24 22.26V1.74C24 .78 23.2 0 22.22 0z" />
+          </svg>
+        </a>
+      </nav>
+
+      <p class="footer-copy">
+        &copy; <span id="copyright-year">2026</span> Ahmed Harb. All rights reserved.
+      </p>
+
+      <a href="#home" class="footer-back-top" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24"
+          stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+        </svg>
+        Back to Top
+      </a>
+
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
