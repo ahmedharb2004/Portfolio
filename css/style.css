@@ -1750,3 +1750,11 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 
 .skip-link:focus { top: var(--space-md); }
+
+/* Direct-contact call-to-action buttons in the contact panel */
+.contact-cta-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: var(--space-md, 20px);
+}
