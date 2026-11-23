@@ -971,89 +971,34 @@
                 </div>
               </a>
 
-              <!-- YouTube (placeholder — no verified URL) -->
-              <div class="contact-channel inactive" aria-label="YouTube: not yet available">
-                <div class="contact-channel-icon" aria-hidden="true">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24"
-                    aria-hidden="true">
-                    <path
-                      d="M23.5 6.19a3 3 0 00-2.11-2.12C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.39.57A3 3 0 00.5 6.19 31.36 31.36 0 000 12a31.36 31.36 0 00.5 5.81 3 3 0 002.11 2.12C4.5 20.5 12 20.5 12 20.5s7.5 0 9.39-.57a3 3 0 002.11-2.12A31.36 31.36 0 0024 12a31.36 31.36 0 00-.5-5.81zM9.75 15.02V8.98L15.5 12l-5.75 3.02z" />
-                  </svg>
-                </div>
-                <div>
-                  <p class="contact-channel-label">YouTube</p>
-                  <p class="contact-channel-value">Not yet available</p>
-                </div>
-              </div>
-
-              <!-- Facebook (placeholder — no verified URL) -->
-              <div class="contact-channel inactive" aria-label="Facebook: not yet available">
-                <div class="contact-channel-icon" aria-hidden="true">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24"
-                    aria-hidden="true">
-                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
-                  </svg>
-                </div>
-                <div>
-                  <p class="contact-channel-label">Facebook</p>
-                  <p class="contact-channel-value">Not yet available</p>
-                </div>
-              </div>
 
             </div>
           </div>
 
-          <!-- Right: Contact Form -->
+          <!-- Right: Direct contact -->
           <div class="fade-in-right">
             <div class="contact-form-wrap">
-              <h3 class="form-title">Send a Message</h3>
-              <p class="form-notice">
-                ⚠️ This is a front-end demonstration only. Messages are not delivered without a
-                backend service. To enable real email delivery, integrate a service such as
-                <strong>Formspree</strong> or <strong>EmailJS</strong>.
+              <h3 class="form-title">Message Me Directly</h3>
+              <p class="contact-intro">
+                LinkedIn is the fastest way to reach me. I check it regularly and reply
+                to internship, project and collaboration messages.
               </p>
 
-              <form id="contact-form" class="contact-form" novalidate aria-label="Contact form">
-                <div class="form-row">
-                  <div class="form-group">
-                    <label class="form-label" for="f-name">Full Name <span aria-hidden="true">*</span></label>
-                    <input type="text" id="f-name" name="name" class="form-input" placeholder="Your full name" required
-                      autocomplete="name" aria-required="true" aria-describedby="f-name-err" />
-                    <span id="f-name-err" class="form-error-msg" role="alert" aria-live="polite"></span>
-                  </div>
-
-                  <div class="form-group">
-                    <label class="form-label" for="f-email">Email Address <span aria-hidden="true">*</span></label>
-                    <input type="email" id="f-email" name="email" class="form-input" placeholder="your@email.com"
-                      required autocomplete="email" aria-required="true" aria-describedby="f-email-err" />
-                    <span id="f-email-err" class="form-error-msg" role="alert" aria-live="polite"></span>
-                  </div>
-                </div>
-
-                <div class="form-group">
-                  <label class="form-label" for="f-subject">Subject <span aria-hidden="true">*</span></label>
-                  <input type="text" id="f-subject" name="subject" class="form-input"
-                    placeholder="e.g. ML Internship Opportunity" required aria-required="true"
-                    aria-describedby="f-subject-err" />
-                  <span id="f-subject-err" class="form-error-msg" role="alert" aria-live="polite"></span>
-                </div>
-
-                <div class="form-group">
-                  <label class="form-label" for="f-message">Message <span aria-hidden="true">*</span></label>
-                  <textarea id="f-message" name="message" class="form-textarea"
-                    placeholder="Your message (minimum 15 characters)…" required aria-required="true"
-                    aria-describedby="f-message-err"></textarea>
-                  <span id="f-message-err" class="form-error-msg" role="alert" aria-live="polite"></span>
-                </div>
-
-                <div id="form-feedback" class="form-feedback" role="status" aria-live="polite"></div>
-
-                <button type="submit" class="form-submit" id="form-submit-btn">
-                  Send Message
-                </button>
-              </form>
+              <div class="contact-cta-stack">
+                <a href="https://www.linkedin.com/in/ahmed-harb-735786322/" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-primary" id="contact-linkedin-cta"
+                  aria-label="Message Ahmed Harb on LinkedIn (opens in new tab)">
+                  Message me on LinkedIn
+                </a>
+                <a href="https://github.com/ahmedharb2004" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-outline" id="contact-github-cta"
+                  aria-label="View Ahmed Harb's GitHub profile (opens in new tab)">
+                  View my GitHub
+                </a>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
